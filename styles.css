@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5% 15%;   
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+img{
+    margin-right: 5px;
+    width: 1.2rem;
+    height:1.2rem ;
+    border: 2px solid whitesmoke;
+}
+
+#search-btn{
+    display: inline;
+}
+#delete-selected{
+    display: inline;
+    width:10rem;
+    padding:5px ;
+    margin:2rem ;
+    background-color: crimson;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    height: 2.5rem;
+    font-weight: bold;
+}
+#pagination{
+    display: inline;
+}
+#pagination button{
+    background-color: white;
+    color: crimson;
+    border-radius: 100%;
+    font-size: large;
+    font-weight: bolder;
+    padding:0.5rem ;
+    margin:0.5rem;
+}
+
+#pagination button:active{
+    background-color: crimson;
+    color: white;
+}
+
+#search-div input[type=search] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 100%;
+    background: #f1f1f1;
+}
+
+
